@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="LAPTOP-TCRNDSUJ" name="pytest" skipped="0" tests="4" time="0.057" timestamp="2021-02-03T23:55:17.776371"><testcase classname="test_cal.TestCalc" name="test_add" time="0.001" /><testcase classname="test_cal.TestCalc" name="test_sub" time="0.001"><failure message="assert 1 == 0">self = &lt;test.test_cal.TestCalc object at 0x000002B91823C898&gt;
+
+    @pytest.mark.add
+    def test_sub(self):
+        calc = calculator()
+        result = calc.sub(1, 1)
+&gt;       assert 1== result
+E       assert 1 == 0
+
+test_cal.py:20: AssertionError</failure></testcase><testcase classname="test_cal.TestCalc" name="test_mul" time="0.001" /><testcase classname="test_cal.TestCalc" name="test_div" time="0.001" /></testsuite></testsuites>
